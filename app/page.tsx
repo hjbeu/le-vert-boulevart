@@ -35,13 +35,13 @@ export default function Home() {
           id="propostas"
           className="bg-white p-6 rounded-lg shadow-md mb-8"
         >
-          <h2 className="text-3xl font-bold text-teal-800 mb-6 border-b-2 border-teal-200 pb-2">
+          <h2 className="text-3xl font-bold text-amber-800 mb-6 border-b-2 border-amber-200 pb-2">
             📌 Propostas
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* SEGURANÇA — Propostas */}
             <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
-              <h3 className="text-xl font-semibold text-teal-700 mb-2">
+              <h3 className="text-xl font-semibold text-amber-700 mb-2">
                 🔐 SEGURANÇA
               </h3>
               <ul className="list-disc list-inside space-y-1 text-gray-700">
@@ -61,7 +61,7 @@ export default function Home() {
 
             {/* LAZER — Propostas */}
             <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
-              <h3 className="text-xl font-semibold text-teal-700 mb-2">
+              <h3 className="text-xl font-semibold text-amber-700 mb-2">
                 🎉 LAZER
               </h3>
               <ul className="list-disc list-inside space-y-1 text-gray-700">
@@ -84,7 +84,7 @@ export default function Home() {
 
             {/* AQUISIÇÕES & MELHORIAS — Propostas */}
             <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
-              <h3 className="text-xl font-semibold text-teal-700 mb-2">
+              <h3 className="text-xl font-semibold text-amber-700 mb-2">
                 🛠️ AQUISIÇÕES & MELHORIAS
               </h3>
               <ul className="list-disc list-inside space-y-1 text-gray-700">
@@ -102,13 +102,13 @@ export default function Home() {
         </section>
 
         <section id="acoes" className="bg-white p-6 rounded-lg shadow-md mb-8 ">
-          <h2 className="text-3xl font-bold text-teal-800 mb-6 border-b-2 border-teal-200 pb-2">
+          <h2 className="text-3xl font-bold text-amber-800 mb-6 border-b-2 border-amber-200 pb-2">
             ✅ Ações já executadas
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6">
             {/* SEGURANÇA — Ações */}
             <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
-              <h3 className="text-xl font-semibold text-teal-700 mb-2">
+              <h3 className="text-xl font-semibold text-amber-700 mb-2">
                 🔐 SEGURANÇA
               </h3>
               <ul className="list-disc list-inside space-y-1 text-gray-700">
@@ -127,7 +127,7 @@ export default function Home() {
 
             {/* LAZER — Ações */}
             <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
-              <h3 className="text-xl font-semibold text-teal-700 mb-2">
+              <h3 className="text-xl font-semibold text-amber-700 mb-2">
                 🎉 LAZER
               </h3>
               <ul className="list-disc list-inside space-y-1 text-gray-700">
@@ -145,7 +145,7 @@ export default function Home() {
             {/* AQUISIÇÕES & MELHORIAS — Ações */}
           </div>
           <div className="bg-gray-50 p-4 rounded-lg border mt-4 border-gray-200">
-            <h3 className="text-xl font-semibold text-teal-700 mb-2">
+            <h3 className="text-xl font-semibold text-amber-700 mb-2">
               🛠️ AQUISIÇÕES & MELHORIAS
             </h3>
             <ul className="list-disc list-inside space-y-1 text-gray-700">
@@ -179,9 +179,9 @@ export default function Home() {
 
         <section
           id="membros"
-          className="bg-teal-50 p-6 rounded-lg shadow-md mb-8 border-l-4 border-teal-500"
+          className="bg-amber-50 p-6 rounded-lg shadow-md mb-8 border-l-4 border-amber-500"
         >
-          <h2 className="text-3xl font-bold text-teal-800 mb-4">
+          <h2 className="text-3xl font-bold text-amber-800 mb-4">
             📅 Composição da Chapa 02
           </h2>
           {/* Informações dos membros aqui */}
@@ -222,11 +222,11 @@ export default function Home() {
           id="comparativo"
           className="bg-white p-6 rounded-lg shadow-md mb-8"
         >
-          <h2 className="text-3xl font-bold text-teal-800 mb-4">
+          <h2 className="text-3xl font-bold text-amber-800 mb-4">
             📊 Como posso ter certeza que vou fazer a melhor escolha?
           </h2>
           <p className="text-lg">
-            A <span className="text-teal-700 font-bold">Chapa 02</span>{" "}
+            A <span className="text-amber-700 font-bold">Chapa 02</span>{" "}
             representa a continuidade de uma gestão que não apenas prometeu, mas
             entregou. Ao longo dos últimos anos, foram conquistadas melhorias
             concretas e visíveis no nosso condomínio, fruto de planejamento,
@@ -239,7 +239,7 @@ export default function Home() {
           </p>
           <p className="text-lg mt-4">
             Entre as conquistas estão o{" "}
-            <span className="text-teal-700 font-semibold">
+            <span className="text-amber-700 font-semibold">
               poço artesiano, o minimercado, o programa “Inadimplência Zero”
             </span>{" "}
             e a melhoria da infraestrutura administrativa. Investimentos
@@ -248,21 +248,21 @@ export default function Home() {
           </p>
           <p className="text-lg mt-4">
             Mais do que palavras, a Chapa 02 apresenta{" "}
-            <span className="text-teal-700 font-bold">
+            <span className="text-amber-700 font-bold">
               resultados comprovados
             </span>{" "}
             e um plano de continuidade que valoriza o que foi feito, aprimora o
             que for necessário e escuta cada morador para seguir avançando
             juntos.
           </p>
-          <p className="text-lg mt-4 font-bold text-teal-800">
+          <p className="text-lg mt-4 font-bold text-amber-800">
             Vamos seguir construindo um condomínio ainda melhor. Vote Chapa 02!
           </p>
         </section>
 
         <section
           id="sugestao"
-          className="bg-blue-100 text-center p-8 rounded-lg shadow-md mb-8"
+          className="bg-amber-50 text-center p-8 rounded-lg shadow-md mb-8"
         >
           <h2 className="text-3xl font-bold text-blue-800 mb-4">
             💡 Queremos você mais uma vez ao nosso lado!
@@ -274,7 +274,7 @@ export default function Home() {
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSfMOvXort22FGgg5n8Y04Vz-p_0gngcJSjk95Iv1juzo15bAg/viewform?usp=header"
             target="_blank"
-            className="inline-block bg-blue-600 text-white font-bold py-3 px-8 rounded-lg text-xl hover:bg-blue-700 transition-colors shadow-lg"
+            className="inline-block bg-[#E67E22] text-white font-bold py-3 px-8 rounded-lg text-xl hover:bg-[#FBB040] transition-colors shadow-lg"
           >
             Enviar minha Sugestão
           </a>
@@ -290,17 +290,22 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="bg-teal-800 text-white text-center p-6 mt-8">
-        <p>Condomínio Le Vert Boulevard © Chapa 03 - 2025/2027</p>
-        <div className="mt-4">
+      <footer
+        style={{ backgroundColor: "#FBB040" }}
+        className=" text-white text-center p-6"
+      >
+        <p>Todos os direitos reservados a hjbeu ©</p>
+        <p>Chapa 02 - 2025/2027</p>
+        <div className="mt-4 items-center justify-center flex">
           <a
             title="Contador de Visitas do MegaContador"
             href="https://megacontador.com.br/"
           >
-            {/* <img
+            <img
+              className="rounded-lgS"
               src="https://megacontador.com.br/img-bJQiYkVzPg4Rx95v-1.gif"
               alt="Contador de visitas"
-            /> */}
+            />
           </a>
         </div>
       </footer>
