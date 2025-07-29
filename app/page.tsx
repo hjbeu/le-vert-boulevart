@@ -182,9 +182,40 @@ export default function Home() {
           className="bg-teal-50 p-6 rounded-lg shadow-md mb-8 border-l-4 border-teal-500"
         >
           <h2 className="text-3xl font-bold text-teal-800 mb-4">
-            📅 Composição da Chapa 03
+            📅 Composição da Chapa 02
           </h2>
           {/* Informações dos membros aqui */}
+
+          <div className="space-y-2 text-gray-700 text-lg">
+            <p>
+              <strong>👩‍⚖️ Síndica:</strong> Ana Luísa da R.Santos – Parc 806
+            </p>
+            <p>
+              <strong>💻 Subsíndico:</strong> Jonathas de O.Santos – Parc 1301
+            </p>
+            <p>
+              <strong>👥 Conselho Consultivo – Titulares:</strong>
+            </p>
+            <ul className="list-disc list-inside ml-4">
+              <li>Nelida D. de Carvalho - Parc 1206</li>
+              <li>Jilvan M. da Silva - Boulevard 1208</li>
+              <li>André Luiz T. da Silva - Boulevard 708</li>
+            </ul>
+            <p>
+              <strong>🔄 Consultivo Suplente:</strong>
+            </p>
+            <ul className="list-disc list-inside ml-4">
+              <li>Aertony Miguel M. dos Reis - Boulevard 1302</li>
+            </ul>
+            <p>
+              <strong>💼 Conselho Fiscal – Titulares:</strong>
+            </p>
+            <ul className="list-disc list-inside ml-4">
+              <li>Marcos Vinicius dos S. Lima - Boulevard 104</li>
+              <li>Francisco Carlos R. Santos - Parc 1102</li>
+              <li>Erick de Jesus S. Matos - Boulevard 708</li>
+            </ul>
+          </div>
         </section>
 
         <section
@@ -192,17 +223,40 @@ export default function Home() {
           className="bg-white p-6 rounded-lg shadow-md mb-8"
         >
           <h2 className="text-3xl font-bold text-teal-800 mb-4">
-            📊 Por que escolher a Chapa 03?
+            📊 Como posso ter certeza que vou fazer a melhor escolha?
           </h2>
           <p className="text-lg">
-            As chapas 01 e 02 representam a continuidade das gestões anteriores,
-            sem renovação real. Já a{" "}
-            <span className="text-red-600 font-bold">
-              Chapa 03 é composta por moradores novos
-            </span>
-            , comprometidos com a{" "}
-            <strong>mudança, transparência e participação ativa</strong> de
-            todos os condôminos.
+            A <span className="text-teal-700 font-bold">Chapa 02</span>{" "}
+            representa a continuidade de uma gestão que não apenas prometeu, mas
+            entregou. Ao longo dos últimos anos, foram conquistadas melhorias
+            concretas e visíveis no nosso condomínio, fruto de planejamento,
+            responsabilidade e dedicação.{" "}
+            <strong>
+              Com ações efetivas e resultados que beneficiam a todos
+            </strong>
+            , a Chapa 02 provou que é possível evoluir com seriedade e foco no
+            bem comum.
+          </p>
+          <p className="text-lg mt-4">
+            Entre as conquistas estão o{" "}
+            <span className="text-teal-700 font-semibold">
+              poço artesiano, o minimercado, o programa “Inadimplência Zero”
+            </span>{" "}
+            e a melhoria da infraestrutura administrativa. Investimentos
+            contínuos em <strong>segurança, lazer e bem-estar</strong> tornaram
+            o Le Vert mais seguro, moderno e acolhedor.
+          </p>
+          <p className="text-lg mt-4">
+            Mais do que palavras, a Chapa 02 apresenta{" "}
+            <span className="text-teal-700 font-bold">
+              resultados comprovados
+            </span>{" "}
+            e um plano de continuidade que valoriza o que foi feito, aprimora o
+            que for necessário e escuta cada morador para seguir avançando
+            juntos.
+          </p>
+          <p className="text-lg mt-4 font-bold text-teal-800">
+            Vamos seguir construindo um condomínio ainda melhor. Vote Chapa 02!
           </p>
         </section>
 
@@ -211,15 +265,14 @@ export default function Home() {
           className="bg-blue-100 text-center p-8 rounded-lg shadow-md mb-8"
         >
           <h2 className="text-3xl font-bold text-blue-800 mb-4">
-            💡 Queremos ouvir você!
+            💡 Queremos você mais uma vez ao nosso lado!
           </h2>
           <p className="text-lg mb-6">
-            Suas ideias são essenciais para o nosso projeto. Envie suas
-            sugestões de melhorias para o condomínio através do nosso
-            formulário.
+            Juntos, podemos transformar nosso espaço! Envie suas sugestões e
+            ajude a construir um Le Vert ainda melhor.
           </p>
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSebPDDcONmvVeJAOFWlwiZ19UoIWfH0YUGL-5Tp1HS8TLwkcg/viewform"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfMOvXort22FGgg5n8Y04Vz-p_0gngcJSjk95Iv1juzo15bAg/viewform?usp=header"
             target="_blank"
             className="inline-block bg-blue-600 text-white font-bold py-3 px-8 rounded-lg text-xl hover:bg-blue-700 transition-colors shadow-lg"
           >
@@ -229,9 +282,10 @@ export default function Home() {
 
         <div className="text-center mb-8">
           <img
-            src="/figura/juntosSeremosMaisForte.png"
-            alt="Logo Futuro Gestão"
+            src="./logoInferior.jpeg"
+            alt="Logo"
             className="mx-auto max-w-sm w-full rounded-lg shadow-md"
+            style={{ borderRadius: "50%", border: "5px solid white" }}
           />
         </div>
       </main>
